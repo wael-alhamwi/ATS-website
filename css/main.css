@@ -572,6 +572,7 @@ ul li {
 }
 .footer .footer-col {
 	margin-bottom: 80px;
+	
 }
 .footer h5 {
 	color: #fff;
@@ -609,7 +610,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Side Hover Navigation bar
 -------------------------------------------------------------------------------*/
-#mySidenav a {
+.sidenav a {
     position: fixed;
     right: -125px;
     transition: 0.3s;
@@ -621,10 +622,15 @@ ul li {
 	text-align: center;
 }
 
-#mySidenav a:hover {
+.sidenav a:hover {
     right: 0;
 }
-#callUs {
+.callUs {
     top: 25%;
     background-color: #FF6600;
+}
+.callUs i{
+    font-size:20px;
+	padding:0;
+	margin:0;
 }
